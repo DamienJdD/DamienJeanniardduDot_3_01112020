@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="feat(git init): added images">
+    <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SASS/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alafrancaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/alafrancaise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/ohmyfood.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/logo/ohmyfood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/ohmyfood@2x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/logo/ohmyfood@2x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/restaurants/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/restaurants/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/restaurants/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/restaurants/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lanoteenchantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/lanoteenchantee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lapalettedugout.html" beforeDir="false" afterPath="$PROJECT_DIR$/lapalettedugout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ledelicedessens.html" beforeDir="false" afterPath="$PROJECT_DIR$/ledelicedessens.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="html" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +65,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1jdpb0Z12zFByWn9VQDQOg8KuA1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +91,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\damie\Documents\GitHub\Projet3\CSS" />
       <recent name="C:\Users\damie\Documents\GitHub\Projet3\Maquettes Ohmyfood" />
     </key>
   </component>
@@ -78,6 +106,9 @@
       <workItem from="1604143892539" duration="47000" />
       <workItem from="1604143946748" duration="16000" />
       <workItem from="1604144105824" duration="5362000" />
+      <workItem from="1604165654101" duration="537000" />
+      <workItem from="1604166211370" duration="209000" />
+      <workItem from="1604166434572" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -101,6 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604159292124" />
+    <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604160646359" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604145371363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,5 +144,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1045" y="0" width="723" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604157316115" />
+    <state x="749" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604160448261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604160448261" />
   </component>
 </project>

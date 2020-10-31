@@ -1,0 +1,55 @@
+header {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+
+header div {
+  background-color: #F6F6F6;
+}
+
+.restaurant-header {
+  position: relative;
+
+  a {
+    font-size: 1.5em;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+  }
+}
+
+header div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #eaeaea;
+  box-shadow: -1px 2px 4px -1px darkgray inset;
+  padding: 2% 0;
+}
+
+.fa-map-marker-alt {
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+input[type=text] {
+  display: block;
+  border: none;
+}
+
+h3 {
+  margin: 5% 15% 0 15%;
+  line-height: 1.2;
+}
+
+h4 {
+  margin: 4%;
+}

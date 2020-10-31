@@ -1,0 +1,19 @@
+button {
+  margin: 6% 0 15% 0;
+  border: none;
+  border-radius: 50px;
+  padding: 5%;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px silver;
+}
+
+button:focus {
+  outline: none;
+}
+
+.linear-gradient {
+  background: linear-gradient(-10deg, $color-primary, #F074DA);
+}
