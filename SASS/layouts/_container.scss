@@ -1,0 +1,25 @@
+.dish-card{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px silver;
+  margin: 10px 0;
+  h2{
+    font-weight: bold;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  p:nth-child(2){
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 1.5rem;
+  }
+  p:last-child{
+    grid-row: 2;
+    grid-column: 2;
+    text-align: end;
+  }
+}

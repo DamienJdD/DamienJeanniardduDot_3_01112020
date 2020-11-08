@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SASS/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_05_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_05__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_06_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_06__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_07_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_07_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_07__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_10_2020_17_07__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020_17_07_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_31_10_2020_17_07__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/layouts/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/utils/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alafrancaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/alafrancaise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/ohmyfood.png" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/logo/ohmyfood.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/ohmyfood@2x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/logo/ohmyfood@2x.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/restaurants/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/restaurants/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/restaurants/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/restaurants/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/images/restaurants/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lanoteenchantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/lanoteenchantee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lapalettedugout.html" beforeDir="false" afterPath="$PROJECT_DIR$/lapalettedugout.html" afterDir="false" />
@@ -86,7 +99,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -108,7 +121,17 @@
       <workItem from="1604144105824" duration="5362000" />
       <workItem from="1604165654101" duration="537000" />
       <workItem from="1604166211370" duration="209000" />
-      <workItem from="1604166434572" duration="612000" />
+      <workItem from="1604166434572" duration="1991000" />
+      <workItem from="1604168471831" duration="137000" />
+      <workItem from="1604217545918" duration="26000" />
+      <workItem from="1604251049813" duration="2672000" />
+      <workItem from="1604483891821" duration="1054000" />
+      <workItem from="1604484974200" duration="3686000" />
+      <workItem from="1604489519409" duration="4648000" />
+      <workItem from="1604566558830" duration="12087000" />
+      <workItem from="1604691692435" duration="595000" />
+      <workItem from="1604843640393" duration="723000" />
+      <workItem from="1604844976668" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -117,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604144839318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(Added SASS): Added SCSS files&#10;&#10;- Installation du normalizer&#10;- Création de style.css&#10;- Création des fichiers scss&#10;- Arborescence revue (directories thématiques)&#10;- Initialisation du package.json&#10;- Script sass fonctionnel : main.scss compile dans&#10;style.css&#10;- index.html presque entièrement stylisé">
+      <created>1604167591674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604167591674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,21 +155,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(git init): added images" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(git init): added images" />
+    <MESSAGE value="feat(Added SASS): Added SCSS files&#10;&#10;- Installation du normalizer&#10;- Création de style.css&#10;- Création des fichiers scss&#10;- Arborescence revue (directories thématiques)&#10;- Initialisation du package.json&#10;- Script sass fonctionnel : main.scss compile dans&#10;style.css&#10;- index.html presque entièrement stylisé" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Added SASS): Added SCSS files&#10;&#10;- Installation du normalizer&#10;- Création de style.css&#10;- Création des fichiers scss&#10;- Arborescence revue (directories thématiques)&#10;- Initialisation du package.json&#10;- Script sass fonctionnel : main.scss compile dans&#10;style.css&#10;- index.html presque entièrement stylisé" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="115" key="CommitChangelistDialog2" timestamp="1604159292124">
+    <state x="586" y="198" key="#Inspections" timestamp="1604504494541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604159292124" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604504494541" />
+    <state x="583" y="115" key="CommitChangelistDialog2" timestamp="1604167591265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604167591265" />
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604160646359" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1604145371363">
+    <state x="437" y="214" key="SettingsEditor" timestamp="1604489716622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604145371363" />
+    <state x="437" y="214" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604489716622" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604167622768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604167622768" />
     <state x="-1045" y="0" width="723" height="1027" maximized="true" key="dock-window-1" timestamp="1604157316115">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

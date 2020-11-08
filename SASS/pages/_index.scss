@@ -1,17 +1,31 @@
-body section:first-of-type {
+.operation {
   margin: 8%;
-}
-
-body section:first-of-type div {
-  display: flex;
-  line-height: 50px;
-  align-items: center;
-  background-color: #F5F5F5;
-  border-radius: 20px 20px;
-  box-shadow: 0 4px 6px silver;
-  margin-bottom: 18px;
-  padding: 6px;
-  margin-left: 10px;
+  div{
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 20px 20px;
+    box-shadow: 0 4px 6px silver;
+    margin-bottom: 18px;
+    padding: 6px;
+    margin-left: 10px;
+    p:first-of-type {
+      height: 20px;
+      width: 20px;
+      background-color: $color-primary;
+      border-radius: 50px;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      position: absolute;
+      left: 29px;
+      font-weight: 400;
+    }
+  }
 }
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
@@ -22,23 +36,7 @@ body section:first-of-type div {
   color: $color-primary;
 }
 
-body section:first-of-type div p:first-of-type {
-  height: 20px;
-  width: 20px;
-  background-color: $color-primary;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  position: absolute;
-  left: 29px;
-  font-weight: 400;
-}
-
-body section:last-of-type {
+.presentation {
   background-color: #f5f5f5;
   padding: 5%;
   a{
@@ -68,7 +66,7 @@ body section:last-of-type {
     .restaurant-name{
       padding: 10px 0 5px 10px;
       font-weight: bold;
-      font-size: 1.1em;
+      font-size: 1.9rem;
     }
     .restaurant-location{
       padding: 0 0 10px 10px;
@@ -78,7 +76,7 @@ body section:last-of-type {
       right: 23px;
       bottom: 23px;
       color: $color-primary;
-      font-size: 1.5em;
+      font-size: 2.7rem;
     }
   }
 }

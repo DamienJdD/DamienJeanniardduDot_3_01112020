@@ -1,37 +1,27 @@
-header {
+#index-header {
   text-align: center;
-
   a {
     text-decoration: none;
     color: black;
   }
-}
-
-
-
-header div {
-  background-color: #F6F6F6;
-}
-
-.restaurant-header {
-  position: relative;
-
-  a {
-    font-size: 1.5em;
-    position: absolute;
-    left: 10px;
-    top: 6px;
+  div {
+    background-color: $lightgrey;
+    padding: 0 0 5px 0;
+    div {
+      background-color: $darkgrey;
+      box-shadow: -1px 2px 4px -1px darkgray inset;
+      padding: 2% 0;
+      input[type=text]{
+        display: inline;
+        text-align: center;
+        background-color: $darkgrey;
+        font-weight: bold;
+        &:before{
+        content: "<i class="fas fa-map-marker-alt"></i>";
+      }
+      }
+    }
   }
-}
-
-header div div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  background-color: #eaeaea;
-  box-shadow: -1px 2px 4px -1px darkgray inset;
-  padding: 2% 0;
 }
 
 .fa-map-marker-alt {
@@ -52,4 +42,22 @@ h3 {
 
 h4 {
   margin: 4%;
+}
+
+.restaurant-header {
+  position: relative;
+  z-index: 1;
+  a{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  h1{
+    text-align: center;
+  }
+  img{
+    max-height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
 }

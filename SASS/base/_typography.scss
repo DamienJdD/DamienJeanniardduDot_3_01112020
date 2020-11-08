@@ -1,25 +1,35 @@
-* {
-  font-family: 'Roboto', sans-serif;
+:root{
+  font-size: 10px;
 }
 
-h1, h2 {
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
   font-family: 'Shrikhand', cursive;
 }
 
+header a h1, header h1, .restaurant-menu div h1{
+  font-size: 3rem;
+}
+
 footer h1{
-  font-size: 1.4em;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2.5rem;
 }
 
 h4 {
   font-weight: lighter;
+  font-size: 1.8rem;
 }
 
 h5{
-  font-size: 1.4em;
+  font-size: 2.1rem;
 }
 
 a{
