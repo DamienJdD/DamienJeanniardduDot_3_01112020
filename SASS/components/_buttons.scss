@@ -4,12 +4,21 @@ button {
   border-radius: 50px;
   padding: 5%;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1.5rem;
   color: white;
   cursor: pointer;
   box-shadow: 0 4px 6px silver;
   display: block;
   min-width: 195px;
+  @include tablet{
+    font-size: 2rem;
+  }
+}
+
+header div button {
+  @include tablet {
+    margin: auto;
+  }
 }
 
 button:focus {

@@ -1,6 +1,9 @@
 footer{
   background-color: #353535;
   padding: 5%;
+  h1{
+    margin: 0 0 15px 0;
+  }
 }
 
 footer div{
@@ -8,6 +11,9 @@ footer div{
   flex-direction: column;
   a{
     margin: 1% 0 1% 0;
+    @include tablet{
+      min-width: 50%;
+    }
   }
   a:first-child p{
     margin-left: 4%;
@@ -15,8 +21,11 @@ footer div{
   a:nth-child(2) p{
     margin-left: 2%;
   }
-}
-
-footer div a:first-child, footer div a:nth-child(2){
-  display: flex;
+  a:first-child, a:nth-child(2){
+    display: flex;
+  }
+  @include tablet{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
