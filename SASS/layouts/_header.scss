@@ -16,9 +16,13 @@
         text-align: center;
         background-color: $darkgrey;
         font-weight: bold;
-        &:before{
-        content: "<i class="fas fa-map-marker-alt"></i>";
+        width: 150px;
       }
+      span::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f3c5";
+        display: inline-block;
+        font-weight: 900;
       }
     }
   }

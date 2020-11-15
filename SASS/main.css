@@ -1,10 +1,4 @@
-@media (min-width: 769px) {
-  body {
-    max-width: 1024px;
-    margin: auto;
-  }
-}
-
+@charset "UTF-8";
 :root {
   font-size: 10px;
 }
@@ -18,8 +12,12 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
-header a h1, header h1, .restaurant-menu div h1 {
+header a h1, header h1 {
   font-size: 3rem;
+}
+
+.restaurant-menu div h1 {
+  font-size: 2.8rem;
 }
 
 footer h1 {
@@ -60,16 +58,27 @@ button {
   box-shadow: 0 4px 6px silver;
   display: block;
   min-width: 195px;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+button:hover {
+  transform: scale(1.15);
 }
 @media (min-width: 450px) {
   button {
     font-size: 2rem;
+    padding: 2%;
+  }
+}
+@media (min-width: 769px) {
+  button {
+    margin: 6% auto 10% auto;
   }
 }
 
 @media (min-width: 450px) {
   header div button {
-    margin: auto;
+    margin: auto auto 30px auto;
   }
 }
 
@@ -102,9 +111,13 @@ button:focus {
   text-align: center;
   background-color: #eaeaea;
   font-weight: bold;
+  width: 150px;
 }
-#index-header div div input[type=text]:before {
-  content: "<i class=" fas fa-map-marker-alt "></i>";
+#index-header div div span::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  display: inline-block;
+  font-weight: 900;
 }
 
 .fa-map-marker-alt {
@@ -148,6 +161,11 @@ h4 {
 footer {
   background-color: #353535;
   padding: 5%;
+}
+@media (min-width: 769px) {
+  footer {
+    padding: 1% 5%;
+  }
 }
 footer h1 {
   margin: 0 0 15px 0;
@@ -210,6 +228,60 @@ footer div a:first-child, footer div a:nth-child(2) {
 .operation {
   margin: 8%;
 }
+@media (min-width: 769px) {
+  .operation {
+    padding: 2% 15%;
+    margin: unset;
+    display: grid;
+    grid-template-rows: 70px 150px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.operation #first::before {
+  content: "1";
+  height: 20px;
+  width: 20px;
+  background-color: #9356DC;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  left: -15px;
+  font-weight: 400;
+}
+.operation #second::before {
+  content: "2";
+  height: 20px;
+  width: 20px;
+  background-color: #9356DC;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  left: -15px;
+  font-weight: 400;
+}
+.operation #third::before {
+  content: "3";
+  height: 20px;
+  width: 20px;
+  background-color: #9356DC;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  left: -15px;
+  font-weight: 400;
+}
 .operation div {
   display: flex;
   line-height: 50px;
@@ -217,34 +289,32 @@ footer div a:first-child, footer div a:nth-child(2) {
   background-color: #F5F5F5;
   border-radius: 20px 20px;
   box-shadow: 0 4px 6px silver;
-  margin-bottom: 18px;
   padding: 6px;
-  margin-left: 10px;
+  margin: 0 0 18px 10px;
 }
 @media (min-width: 450px) {
   .operation div {
     margin: 6% 15%;
   }
 }
-.operation div p:first-of-type {
-  height: 20px;
-  width: 20px;
-  background-color: #9356DC;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  position: absolute;
-  left: 29px;
-  font-weight: 400;
-}
-@media (min-width: 450px) {
-  .operation div p:first-of-type {
-    left: 147px;
+@media (min-width: 769px) {
+  .operation div {
+    text-align: center;
+    font-weight: bold;
+    min-width: 90%;
   }
+}
+.operation #first {
+  grid-row: 2;
+  grid-column: 1;
+}
+.operation #second {
+  grid-row: 2;
+  grid-column: 2;
+}
+.operation #third {
+  grid-row: 2;
+  grid-column: 3;
 }
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
@@ -265,6 +335,12 @@ footer div a:first-child, footer div a:nth-child(2) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px repeat(2, 1fr);
     grid-gap: 20px;
+  }
+}
+@media (min-width: 769px) {
+  #presentation {
+    padding: 2% 15%;
+    grid-gap: 40px;
   }
 }
 @media (min-width: 450px) {
@@ -299,6 +375,16 @@ footer div a:first-child, footer div a:nth-child(2) {
   margin-bottom: 20px;
   border-radius: 20px 20px;
   box-shadow: 0 4px 6px silver;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+#presentation a:hover {
+  transform: scale(1.15);
+}
+@media (min-width: 769px) {
+  #presentation a {
+    max-width: 450px;
+  }
 }
 #presentation a img {
   max-width: 100%;
@@ -350,6 +436,12 @@ footer div a:first-child, footer div a:nth-child(2) {
 }
 .restaurant-menu div:first-child .fa-heart {
   font-size: 2.8rem;
+}
+@media (min-width: 769px) {
+  .restaurant-menu {
+    max-width: 1100px;
+    margin: -50px auto 0 auto;
+  }
 }
 
 @media (min-width: 450px) {

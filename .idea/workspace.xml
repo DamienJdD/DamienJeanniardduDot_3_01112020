@@ -6,14 +6,14 @@
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/base/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/components/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SASS/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/utils/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/utils/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alafrancaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/alafrancaise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lanoteenchantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/lanoteenchantee.html" afterDir="false" />
@@ -123,7 +123,9 @@
       <workItem from="1604843640393" duration="723000" />
       <workItem from="1604844976668" duration="5296000" />
       <workItem from="1605007227659" duration="4155000" />
-      <workItem from="1605019888450" duration="726000" />
+      <workItem from="1605019888450" duration="1083000" />
+      <workItem from="1605175848085" duration="5698000" />
+      <workItem from="1605365351031" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604846769159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(Added SASS): Création de la version tablette&#10;&#10;- Cartes présentation placées en Grid (index) sur 2 colonnes&#10;- Cartes&#10;menu placées en Grid (pages restau) sur 2 colonnes&#10;- Boutons&#10;redimensionnés&#10;- Le bouton de l'index se comporte comme un lien (vers&#10;l'ancre #presentation)">
+      <created>1605020946461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605020946461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,17 +165,18 @@
     <MESSAGE value="feat(git init): added images" />
     <MESSAGE value="feat(Added SASS): Added SCSS files&#10;&#10;- Installation du normalizer&#10;- Création de style.css&#10;- Création des fichiers scss&#10;- Arborescence revue (directories thématiques)&#10;- Initialisation du package.json&#10;- Script sass fonctionnel : main.scss compile dans&#10;style.css&#10;- index.html presque entièrement stylisé" />
     <MESSAGE value="feat(Added SASS): Version mobile stylisée&#10;&#10;- les 5 pages sont conformes aux maquettes mobiles&#10;- projet entièrement&#10;passé en rem avec un :root -&gt; font-size:10px&#10;- modifications sémantiques&#10;de certaines balises div (h2 dans les cartes, sections...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Added SASS): Version mobile stylisée&#10;&#10;- les 5 pages sont conformes aux maquettes mobiles&#10;- projet entièrement&#10;passé en rem avec un :root -&gt; font-size:10px&#10;- modifications sémantiques&#10;de certaines balises div (h2 dans les cartes, sections...)" />
+    <MESSAGE value="feat(Added SASS): Création de la version tablette&#10;&#10;- Cartes présentation placées en Grid (index) sur 2 colonnes&#10;- Cartes&#10;menu placées en Grid (pages restau) sur 2 colonnes&#10;- Boutons&#10;redimensionnés&#10;- Le bouton de l'index se comporte comme un lien (vers&#10;l'ancre #presentation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Added SASS): Création de la version tablette&#10;&#10;- Cartes présentation placées en Grid (index) sur 2 colonnes&#10;- Cartes&#10;menu placées en Grid (pages restau) sur 2 colonnes&#10;- Boutons&#10;redimensionnés&#10;- Le bouton de l'index se comporte comme un lien (vers&#10;l'ancre #presentation)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604504494541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604504494541" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1604846768759">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1605020946078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604846768759" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605020946078" />
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="437" y="214" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604489716622" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604846779742">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605020967424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604846779742" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605020967424" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605010393468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
