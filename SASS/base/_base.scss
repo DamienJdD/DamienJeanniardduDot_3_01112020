@@ -1,0 +1,48 @@
+//remplissage progressif des coeurs
+.fa-heart {
+  color: #f5f5f5;
+  font-size: 2.7rem;
+  -webkit-text-stroke: 1px $color-primary;
+  transition: color 1500ms;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+//test check
+.dish-card:hover .dish-card-check{
+  width: 20%;
+  > .fa-check-circle {
+    opacity: 1;
+    animation: rotation 2s linear;
+  }
+}
+
+.dish-card-check {
+  //transition: width 2s linear;
+  width: 25%;
+  right: 0;
+  background-color: $color-tertiary;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  transform-origin: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+    z-index: 1;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    z-index: 1;
+    transform: rotate(360deg);
+  }
+}

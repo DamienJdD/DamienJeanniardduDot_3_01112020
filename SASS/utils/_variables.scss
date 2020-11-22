@@ -4,6 +4,9 @@ $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 $lightgrey: #F6F6F6;
 $darkgrey: #eaeaea;
+//button colors//
+$primary-light: lighten($color-primary, 5%);
+$button-light: lighten(#F074DA, 5%);
 //media queries breakpoints//
 $break-tablet: 450px;
 $break-desktop: 769px;

@@ -1,0 +1,134 @@
+//animation des dish-card (apparition progressive)
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dish-card {
+  animation: fadein 1.5s;
+  animation-fill-mode: backwards;
+
+  &:nth-of-type(1) {
+    animation-delay: 0.4s;
+  }
+
+  &:nth-of-type(2) {
+    animation-delay: 0.8s;
+  }
+
+  &:nth-of-type(3) {
+    animation-delay: 1.2s;
+  }
+
+  &:nth-of-type(4){
+    animation-delay: 1.6s;
+  }
+}
+
+//loading spinner
+$size: 3vh;
+$num-bars: 5;
+$anim-dur: 1s;
+$anim-delay: $anim-dur / $num-bars;
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255,255,255, 1);
+  position: absolute;
+}
+
+.load{
+  width: $size*10;
+  height: $size*7.5;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &__bar{
+    height: 100%;
+    width: $size;
+    animation: bars $anim-dur backwards infinite ease-in-out alternate;
+    @for $i from 1 through $num-bars{
+      &--#{$i} {
+        animation-delay: $anim-delay * $i;
+      }
+    }
+  }
+}
+
+@keyframes bars {
+  from{
+    transform: scaleY(0.5);
+  }
+  to{
+    transform: scaleY(1.0);
+  }
+}
+
+.load__bar--1 {
+  background-color: $color-primary;
+  animation-delay: 200ms;
+}
+.load__bar--2 {
+  background-color: $color-secondary;
+  animation-delay: 400ms;
+}
+.load__bar--3 {
+  background-color: $color-tertiary;
+  animation-delay: 600ms;
+}
+.load__bar--4 {
+  background-color: $color-secondary;
+  animation-delay: 800ms;
+}
+.load__bar--5 {
+  background-color: $color-primary;
+  animation-delay: 1000ms;
+}
+
+//disparition du loader
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadein2 {
+  0%{
+    opacity: 0;
+    visibility: hidden;
+  }
+  90%{
+    opacity: 0;
+    visibility: hidden;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: fadeout 3s forwards;
+}
+
+#index-header, .operation, #presentation, #index-footer{
+  animation: fadein2 3s backwards;
+}

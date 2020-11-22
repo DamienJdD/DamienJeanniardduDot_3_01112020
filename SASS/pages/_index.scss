@@ -67,7 +67,6 @@
     @include desktop{
       text-align: center;
       font-weight: bold;
-      min-width: 90%;
     }
   }
   #first{
@@ -148,7 +147,8 @@
       transform: scale(1.15);
     }
     @include desktop{
-      max-width: 450px;
+      width: 450px;
+      margin: 0 auto;
     }
 
     img {
@@ -183,8 +183,6 @@
       position: absolute;
       right: 23px;
       bottom: 23px;
-      color: $color-primary;
-      font-size: 2.7rem;
     }
   }
 }
