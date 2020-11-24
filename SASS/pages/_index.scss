@@ -1,12 +1,13 @@
 .operation {
   margin: 8%;
-  @include desktop{
+  @include desktop {
     padding: 2% 15%;
     margin: unset;
     display: grid;
     grid-template-rows: 70px 150px;
     grid-template-columns: repeat(3, 1fr);
   }
+
   #first::before {
     content: "1";
     height: 20px;
@@ -22,7 +23,8 @@
     left: -15px;
     font-weight: 400;
   }
-  #second::before{
+
+  #second::before {
     content: "2";
     height: 20px;
     width: 20px;
@@ -37,7 +39,8 @@
     left: -15px;
     font-weight: 400;
   }
-  #third::before{
+
+  #third::before {
     content: "3";
     height: 20px;
     width: 20px;
@@ -52,6 +55,7 @@
     left: -15px;
     font-weight: 400;
   }
+
   div {
     display: flex;
     line-height: 50px;
@@ -64,20 +68,23 @@
     @include tablet {
       margin: 6% 15%;
     }
-    @include desktop{
+    @include desktop {
       text-align: center;
       font-weight: bold;
     }
   }
-  #first{
+
+  #first {
     grid-row: 2;
     grid-column: 1;
   }
-  #second{
+
+  #second {
     grid-row: 2;
     grid-column: 2;
   }
-  #third{
+
+  #third {
     grid-row: 2;
     grid-column: 3;
   }
@@ -100,7 +107,7 @@
     grid-template-rows: 100px repeat(2, 1fr);
     grid-gap: 20px;
   }
-  @include desktop{
+  @include desktop {
     padding: 2% 15%;
     grid-gap: 40px;
   }
@@ -143,10 +150,12 @@
     box-shadow: 0 4px 6px silver;
     transform: scale(1);
     transition: transform 400ms;
-    &:hover{
+
+    &:hover {
       transform: scale(1.15);
     }
-    @include desktop{
+
+    @include desktop {
       width: 450px;
       margin: 0 auto;
     }

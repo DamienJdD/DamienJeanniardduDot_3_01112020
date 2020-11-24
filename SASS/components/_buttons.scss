@@ -10,11 +10,11 @@ button {
   cursor: pointer;
   display: block;
   min-width: 195px;
-  @include tablet{
+  @include tablet {
     font-size: 2rem;
     padding: 2%;
   }
-  @include desktop{
+  @include desktop {
     margin: 6% auto 10% auto;
   }
 }
@@ -35,16 +35,18 @@ button:focus {
   box-shadow: 0 0 3px darken($color-tertiary, 40);
   transition: all 300ms;
   text-shadow: 0 1px 1px rgb(47, 47, 47);
-  &:hover{
+
+  &:hover {
     background: linear-gradient(-10deg, $primary-light, $button-light);
     box-shadow: 0 0 10px darken($color-tertiary, 40);
   }
 }
 
 //animation des cartes fonctionnement
-.operation div{
+.operation div {
   transition: background-color 300ms;
-  &:hover{
+
+  &:hover {
     background-color: lighten($color-secondary, 20%);
   }
 }

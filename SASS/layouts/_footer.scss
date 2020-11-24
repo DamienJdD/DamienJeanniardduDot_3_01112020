@@ -1,33 +1,39 @@
-footer{
+footer {
   background-color: #353535;
   padding: 5%;
-  @include desktop{
+  @include desktop {
     padding: 1% 5%;
   }
-  h1{
+
+  h1 {
     margin: 0 0 15px 0;
   }
 }
 
-footer div{
+footer div {
   display: flex;
   flex-direction: column;
-  a{
+
+  a {
     margin: 1% 0 1% 0;
-    @include tablet{
+    @include tablet {
       min-width: 50%;
     }
   }
-  a:first-child p{
+
+  a:first-child p {
     margin-left: 4%;
   }
-  a:nth-child(2) p{
+
+  a:nth-child(2) p {
     margin-left: 2%;
   }
-  a:first-child, a:nth-child(2){
+
+  a:first-child, a:nth-child(2) {
     display: flex;
   }
-  @include tablet{
+
+  @include tablet {
     flex-direction: row;
     flex-wrap: wrap;
   }
