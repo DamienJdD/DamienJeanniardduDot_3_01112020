@@ -3,24 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/pages/_restaurant-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/utils/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/utils/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alafrancaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/alafrancaise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lanoteenchantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/lanoteenchantee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lapalettedugout.html" beforeDir="false" afterPath="$PROJECT_DIR$/lapalettedugout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ledelicedessens.html" beforeDir="false" afterPath="$PROJECT_DIR$/ledelicedessens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/normalizer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/normalizer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +123,8 @@
       <workItem from="1606002532708" duration="1129000" />
       <workItem from="1606041663596" duration="5904000" />
       <workItem from="1606154052123" duration="9272000" />
-      <workItem from="1606235203221" duration="237000" />
+      <workItem from="1606235203221" duration="1023000" />
+      <workItem from="1606296327196" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -184,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606043166832</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(Added SASS): Added animations&#10;&#10;- Animation des cartes de plat (apparition de coche coulissante au survol)&#10;- HTML ré-arrangé pour les besoins de cette animation (création de 2 div+class à l'intérieur des cartes de plat)">
+      <created>1606235618265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606235618265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,17 +189,18 @@
     <MESSAGE value="feat(Added SASS): Création de la version tablette&#10;&#10;- Cartes présentation placées en Grid (index) sur 2 colonnes&#10;- Cartes&#10;menu placées en Grid (pages restau) sur 2 colonnes&#10;- Boutons&#10;redimensionnés&#10;- Le bouton de l'index se comporte comme un lien (vers&#10;l'ancre #presentation)" />
     <MESSAGE value="feat(Added SASS): Création version desktop&#10;&#10;- Version tablette corrigée (boutons et footer redimensionnés)&#10;- Version&#10;desktop finalisée (marges des différentes sections et boutons&#10;redimensionnés)" />
     <MESSAGE value="feat(Added SASS): Added animations&#10;&#10;Création du loader&#10;Animation des coeurs&#10;Animation des boutons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Added SASS): Added animations&#10;&#10;Création du loader&#10;Animation des coeurs&#10;Animation des boutons" />
+    <MESSAGE value="feat(Added SASS): Added animations&#10;&#10;- Animation des cartes de plat (apparition de coche coulissante au survol)&#10;- HTML ré-arrangé pour les besoins de cette animation (création de 2 div+class à l'intérieur des cartes de plat)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Added SASS): Added animations&#10;&#10;- Animation des cartes de plat (apparition de coche coulissante au survol)&#10;- HTML ré-arrangé pour les besoins de cette animation (création de 2 div+class à l'intérieur des cartes de plat)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604504494541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604504494541" />
-    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1606043166470">
+    <state x="707" y="0" key="CommitChangelistDialog2" timestamp="1606235617933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606043166470" />
+    <state x="707" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606235617933" />
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,10 +209,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="437" y="214" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604489716622" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606043171844">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606235632562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606043171844" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606235632562" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605010393468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
