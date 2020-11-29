@@ -156,8 +156,12 @@
     }
 
     @include desktop {
-      width: 450px;
+      width: 100%;
       margin: 0 auto;
+    }
+
+    @include hd {
+      max-width: 450px;
     }
 
     img {

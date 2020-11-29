@@ -47,7 +47,13 @@
       flex: 1;
 
       p:first-child {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        @include tablet {
+          font-size: 1.35rem;
+        }
+        @include desktop {
+          font-size: 1.4rem;
+        }
         @include noBreak;
       }
 

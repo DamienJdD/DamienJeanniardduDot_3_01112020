@@ -28,7 +28,7 @@
 
 .container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: white;
   position: absolute;
 }
@@ -293,7 +293,7 @@ h4 {
   position: relative;
   z-index: 1;
 }
-.restaurant-header a {
+.restaurant-header .fa-arrow-left {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -389,10 +389,20 @@ footer div a:first-child, footer div a:nth-child(2) {
   flex: 1;
 }
 .dish-card .dish-card-content .description p:first-child {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+@media (min-width: 450px) {
+  .dish-card .dish-card-content .description p:first-child {
+    font-size: 1.35rem;
+  }
+}
+@media (min-width: 769px) {
+  .dish-card .dish-card-content .description p:first-child {
+    font-size: 1.4rem;
+  }
 }
 .dish-card .dish-card-content .description p:last-child {
   padding-left: 10px;
@@ -582,8 +592,13 @@ footer div a:first-child, footer div a:nth-child(2) {
 }
 @media (min-width: 769px) {
   #presentation a {
-    width: 450px;
+    width: 100%;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1350px) {
+  #presentation a {
+    max-width: 450px;
   }
 }
 #presentation a img {
