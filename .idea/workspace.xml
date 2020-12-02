@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="fix: Bug fix&#10;&#10;- Correction d'un décalage de l'ombre dans le header de l'index (1px)">
+    <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +130,8 @@
       <workItem from="1606664190967" duration="1361000" />
       <workItem from="1606668416948" duration="18000" />
       <workItem from="1606670003185" duration="153000" />
-      <workItem from="1606673571217" duration="121000" />
+      <workItem from="1606673571217" duration="147000" />
+      <workItem from="1606911358736" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -199,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606665383390</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: Bug fix&#10;&#10;- Correction d'un décalage de l'ombre dans le header de l'index (1px)">
+      <created>1606673704258</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606673704258</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +220,18 @@
     <MESSAGE value="feat(Added SASS): Added animations&#10;&#10;- Animation des cartes de plat (apparition de coche coulissante au survol)&#10;- HTML ré-arrangé pour les besoins de cette animation (création de 2 div+class à l'intérieur des cartes de plat)" />
     <MESSAGE value="fix: Bug fix&#10;&#10;Suppression d'une ligne ne passant pas le W3C validator (normalizer.css&#10;ligne 47)" />
     <MESSAGE value="fix: Bug fix&#10;&#10;- Lien vers l'index ajouté sur le logo des pages restau&#10;- Correction de la taille du texte des cartes de plats pour un meilleur rendu en responsive mobile / tablette&#10;- Correction de la taille des cartes de présentation restaurant (index) pour un meilleur rendu sur résolution desktop basse (entre 770px et 1350px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Bug fix&#10;&#10;- Lien vers l'index ajouté sur le logo des pages restau&#10;- Correction de la taille du texte des cartes de plats pour un meilleur rendu en responsive mobile / tablette&#10;- Correction de la taille des cartes de présentation restaurant (index) pour un meilleur rendu sur résolution desktop basse (entre 770px et 1350px)" />
+    <MESSAGE value="fix: Bug fix&#10;&#10;- Correction d'un décalage de l'ombre dans le header de l'index (1px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Bug fix&#10;&#10;- Correction d'un décalage de l'ombre dans le header de l'index (1px)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604504494541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604504494541" />
-    <state x="328" y="0" key="CommitChangelistDialog2" timestamp="1606673632830">
+    <state x="328" y="0" key="CommitChangelistDialog2" timestamp="1606673703905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="328" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606673632830" />
+    <state x="328" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606673703905" />
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,10 +240,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="437" y="214" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604489716622" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606665388348">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606673710858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606665388348" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606673710858" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605010393468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
