@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0171ab1e-ce8d-4b08-afad-adc7fc97d484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SASS/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/SASS/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +136,8 @@
       <workItem from="1606911358736" duration="2000" />
       <workItem from="1606946836998" duration="591000" />
       <workItem from="1606951901524" duration="35000" />
-      <workItem from="1606997783162" duration="3161000" />
+      <workItem from="1606997783162" duration="3757000" />
+      <workItem from="1607007586000" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="feat(git init): added images">
       <created>1604144839318</created>
@@ -222,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606947093484</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor(Added SASS)&#10;&#10;Page d'accueil&#10;- Changement du bouton type submit en lien &lt;a&gt;&#10;&#10;Animation carte de plat au&#10;- Survol en desktop&#10;- Click en tablette / mobile">
+      <created>1607001211142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607001211142</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +242,8 @@
     <MESSAGE value="fix: Bug fix&#10;&#10;- Lien vers l'index ajouté sur le logo des pages restau&#10;- Correction de la taille du texte des cartes de plats pour un meilleur rendu en responsive mobile / tablette&#10;- Correction de la taille des cartes de présentation restaurant (index) pour un meilleur rendu sur résolution desktop basse (entre 770px et 1350px)" />
     <MESSAGE value="fix: Bug fix&#10;&#10;- Correction d'un décalage de l'ombre dans le header de l'index (1px)" />
     <MESSAGE value="refactor(Added SASS): Suppression fichiers&#10;&#10;Suppressions de deux partiels vides&#10;- _nav.scss&#10;- _extenstions.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(Added SASS): Suppression fichiers&#10;&#10;Suppressions de deux partiels vides&#10;- _nav.scss&#10;- _extenstions.scss" />
+    <MESSAGE value="refactor(Added SASS)&#10;&#10;Page d'accueil&#10;- Changement du bouton type submit en lien &lt;a&gt;&#10;&#10;Animation carte de plat au&#10;- Survol en desktop&#10;- Click en tablette / mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(Added SASS)&#10;&#10;Page d'accueil&#10;- Changement du bouton type submit en lien &lt;a&gt;&#10;&#10;Animation carte de plat au&#10;- Survol en desktop&#10;- Click en tablette / mobile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604504494541">
@@ -252,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606946881249" />
-    <state x="328" y="0" key="CommitChangelistDialog2" timestamp="1606947093141">
+    <state x="328" y="0" key="CommitChangelistDialog2" timestamp="1607001210804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="328" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606947093141" />
+    <state x="328" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607001210804" />
     <state x="629" y="298" width="662" height="678" key="EditFileWatcherDialog" timestamp="1604160646359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -268,10 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="437" y="214" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604489716622" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606947097608">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607001214688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606947097608" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607001214688" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605010393468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
