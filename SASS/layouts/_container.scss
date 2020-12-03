@@ -16,6 +16,15 @@
   cursor: pointer;
   background-color: white;
 
+  &:active .dish-card-check {
+    right: 0;
+    flex: 1;
+
+    > i{
+      animation: rotation 500ms linear;
+      }
+    }
+
   &:hover .dish-card-check {
     right: 0;
     flex: 1;

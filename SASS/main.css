@@ -239,6 +239,30 @@ button:focus {
   background-color: #ffdff6;
 }
 
+#header-button {
+  margin: 15% auto 15% auto;
+  border: none;
+  border-radius: 50px;
+  padding: 5%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white !important;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 195px;
+}
+@media (min-width: 450px) {
+  #header-button {
+    font-size: 2rem;
+    padding: 2%;
+  }
+}
+@media (min-width: 769px) {
+  #header-button {
+    margin: 6% auto 10% auto;
+  }
+}
+
 #index-header {
   text-align: center;
 }
@@ -250,19 +274,19 @@ button:focus {
   background-color: #F6F6F6;
   padding: 0 0 5px 0;
 }
-#index-header div div {
+#index-header div form {
   background-color: #eaeaea;
   box-shadow: 0 2px 4px -1px darkgray inset;
   padding: 2% 0;
 }
-#index-header div div input[type=text] {
+#index-header div form input[type=text] {
   display: inline;
   text-align: center;
   background-color: #eaeaea;
   font-weight: bold;
   width: 150px;
 }
-#index-header div div label::before {
+#index-header div form label::before {
   font-family: "Font Awesome 5 Free";
   content: "";
   display: inline-block;
@@ -358,6 +382,13 @@ footer div a:first-child, footer div a:nth-child(2) {
   margin: 20px 0;
   cursor: pointer;
   background-color: white;
+}
+.dish-card:active .dish-card-check {
+  right: 0;
+  flex: 1;
+}
+.dish-card:active .dish-card-check > i {
+  animation: rotation 500ms linear;
 }
 .dish-card:hover .dish-card-check {
   right: 0;
